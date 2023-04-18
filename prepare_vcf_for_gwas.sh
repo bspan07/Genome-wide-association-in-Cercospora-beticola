@@ -1,3 +1,4 @@
+#credit to Jonathan Richards, who was in Tim Friesen lab who let me edit his existing scripts
 #prior to this script, use trimmomatic to trim reads, and find paired reads (discard unpaired reads)
 #this script takes paired Illumina reads for each isolate, aligns to reference genome, and identifies any variants (SNPs or small indels). The output is a variant call file (vcf) containing variants for each isolate compared to the reference genome.
 #!/bin/bash
